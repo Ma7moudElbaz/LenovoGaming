@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Legion Zone</string>
+
+    <string name="domain_name">https://legion-zone.com/</string>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>Country Of Residence</item>
+        <item>United Arab Emirates</item>
+        <item>Saudi Arabia</item>
+        <item>Kuwait</item>
+        <item>Oman</item>
+        <item>Bahrain</item>
+        <item>Qatar</item>
+    </string-array>
+
+
+    <string-array name="countriesCode">
+        <item></item>
+        <item>+971</item>
+        <item>+966</item>
+        <item>+965</item>
+        <item>+968</item>
+        <item>+973</item>
+        <item>+974</item>
+    </string-array>
+
+    //Menu
+    <string name="menu_home">HOME</string>
+    <string name="menu_showcase">PRODUCT SHOW CASE</string>
+    <string name="menu_news">NEWS</string>
+    <string name="menu_events">EVENTS</string>
+    <string name="menu_promotions">PROMOTIONS</string>
+    <string name="menu_tournaments">TOURNAMENTS</string>
+    <string name="menu_products">PRODUCTS</string>
+    <string name="menu_logout">LOG OUT</string>
+    <string name="menu_login">LOG IN</string>
+
+
+    <string name="services_url">https://legion-game.lenovomeaevents.com/api/</string>
+    <string name="wait">Loading...  </string>
+    <string name="network_error">Network Error ..</string>
+    <string name="products">Products</string>
+    <string name="news">News</string>
+    <string name="teams_players"><![CDATA[Teams & Players]]></string>
+    <string name="gallery">Gallery</string>
+    <string name="view_all">View All</string>
+
+
+    <string name="fill_fields">Please fill all fields</string>
+    <string name="password_not_matched">Password and confrim password not mathced</string>
+    <string name="account_created">Account created successfully</string>
+    <string name="menu_profile">Profile</string>
+    <string name="promotions">Promotions</string>
+    <string name="Profie">Profile</string>
+    <string name="tournaments">Tournaments</string>
+    <string name="what_legion_zone">WHAT’S \nLEGION ZONE?</string>
+    <string name="how_to_participate">HOW TO \nPARTICIPATE</string>
+    <string name="tournament_rewards">TOURNAMENT \nREWARDS</string>
+
+    <string name="what_legion_zone_txt">It’s a land of games, you will be flying over hundreds of games and tournaments but once you enter you will be under the legion zone’s rules, follow the footprints of winners and be the upcoming winner</string>
+    <string name="how_to_participate_txt">Simply put, sign up or log in!</string>
+    <string name="tournament_rewards_txt"><![CDATA[All regional online tournament rewards are in USD unless specifically stated in the tournament details. These winnings are payable to the bank account of your choice, however, taxes and additional banking charges may be incurred during this transfer and are subject to your market’s rules and regulations. As such, it is recommended that you prepare your banking details before hand to speed up this process. Terms & Conditions apply.]]></string>
+    <string name="activities">ACTIVITIES</string>
+    <string name="schedule">SCHEDULE</string>
+    <string name="games">GAMES</string>
+    <string name="register">REGISTER</string>
+    <string name="rules">RULES</string>
+    <string name="events">Events</string>
+    <string name="dialog_date">DATE :</string>
+    <string name="dialog_prize">TOTAL PRIZE POOL :</string>
+    <string name="dialog_type">TYPE :</string>
+    <string name="dialog_organizer">ORGANIZER :</string>
+    <string name="dialog_game">GAME :</string>
+    <string name="dialog_more_details">More Details</string>
+    <string name="dialog_quick_rules">Quick Rules</string>
+    <string name="game_registeration">Game Registeration</string>
+    <string name="team_name">Team Name</string>
+    <string name="email_addres">Email Addres</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login_account">Login Account</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="next">Next</string>
+    <string name="i_agree_to_terms_and_condition">I Agree to terms and condition</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="gamer_tag">Gamer Tag</string>
+    <string name="discord_tag">Discord Tag</string>
+    <string name="age">Age</string>
+    <string name="phone">Phone</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="add_substitution">Add Substitution</string>
+    <string name="team_logo_optional">Team Logo (optional)</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="no_promotions_available_now">No Promotions available Now!</string>
+    <string name="mode">MODE</string>
+    <string name="format">FORMAT</string>
+    <string name="date">DATE</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    <string name="name">Name</string>
+
+    <string name="no_data">No data Available</string>
+
+
+    <string name="team_details">Team Details</string>
+    <string name="player">Player</string>
+    <string name="captain">Captain</string>
+    <string name="subistitution">Subistitution</string>
+    <string name="pro_teams">PRO TEAMS</string>
+    <string name="influencers">INFLUENCERS</string>
+    <string name="no_form_for_activity">There is no form for this activity</string>
+    <string name="menu_language">العربيه</string>
+
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    tools:showIn="navigation_view"-->
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_language"
+            android:title="@string/menu_language" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/nav_show_case"
+            android:title="@string/menu_showcase" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:title="@string/menu_news" />
+
+        <item
+            android:id="@+id/nav_products"
+            android:title="@string/menu_products" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:title="@string/menu_events" />
+
+        <item
+            android:id="@+id/nav_promotions"
+            android:title="@string/menu_promotions" />
+
+        <item
+            android:id="@+id/nav_tournaments"
+            android:title="@string/menu_tournaments" />
+
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/menu_profile" />
+
+
+        <item
+            android:id="@+id/nav_login"
+            android:title="@string/menu_login" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/menu_logout" />
+
+
+
+    </group>
+
+</menu>

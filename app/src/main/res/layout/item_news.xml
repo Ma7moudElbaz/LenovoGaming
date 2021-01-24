@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/list_item_bg"
+    android:padding="5dp"
+    android:layout_marginBottom="7dp"
+    android:weightSum="5"
+    android:orientation="horizontal"
+    android:id="@+id/parent_layout">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tst_tournament"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="AMD RYZEN EQUIPPED TO WIN GAME BUNDLE"
+        android:textColor="@color/white"
+        android:layout_marginStart="10dp"/>
+
+
+</LinearLayout>

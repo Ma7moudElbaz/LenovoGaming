@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Legion Zone</string>
+
+    <string name="domain_name">https://legion-zone.com/ar/</string>
+
+    <string name="services_url">https://legion-game.lenovomeaevents.com/api/</string>
+
+    <string-array name="gender">
+        <item>النوع</item>
+        <item>ذكر</item>
+        <item>أنثى</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>بلد الاقامه</item>
+        <item>الإمارات العربية المتحدة</item>
+        <item>السعوديه</item>
+        <item>الكويت</item>
+        <item>عمان</item>
+        <item>البحرين</item>
+        <item>قطر</item>
+    </string-array>
+
+
+    <string-array name="countriesCode">
+        <item></item>
+        <item>+971</item>
+        <item>+966</item>
+        <item>+965</item>
+        <item>+968</item>
+        <item>+973</item>
+        <item>+974</item>
+    </string-array>
+
+    //Menu
+    <string name="menu_home">الرئيسية</string>
+    <string name="menu_showcase">معرض المنتجات</string>
+    <string name="menu_news">اﻷخبار</string>
+    <string name="menu_events">اﻷحداث</string>
+    <string name="menu_promotions">الترقيات</string>
+    <string name="menu_tournaments">البطولات</string>
+    <string name="menu_products">المنتجات</string>
+    <string name="menu_logout">التسجيل</string>
+    <string name="menu_login">تسجيل دخول</string>
+
+
+    <string name="wait">تحميل البيانات..</string>
+    <string name="network_error">خطأ في الاتصال بالانترنت ...</string>
+    <string name="products">المنتجات</string>
+    <string name="news">اﻷخبار</string>
+    <string name="teams_players">الفرق واللاعبين</string>
+    <string name="gallery">المتحدثين</string>
+    <string name="view_all">عرض الكل</string>
+
+
+    <string name="fill_fields">من فضلك أملأ كل الحقول</string>
+    <string name="password_not_matched">تأكد من تطابق كلمة السر</string>
+    <string name="account_created">تم انشاء الحساب بنجاح</string>
+    <string name="menu_profile">الملف الشخصي</string>
+    <string name="promotions">الترقيات</string>
+    <string name="Profie">الملف الشخصي</string>
+    <string name="tournaments">البطولات</string>
+    <string name="what_legion_zone">ما هو ال \n Legion Zone</string>
+    <string name="how_to_participate">كيفية \nالمشاركة</string>
+    <string name="tournament_rewards">جوائز \n البطولة</string>
+
+    <string name="what_legion_zone_txt">إنها أرض الألعاب ، ستطير فوق مئات الألعاب والبطولات ، ولكن بمجرد دخولك ستكون خاضعًا لقواعد منطقة الفيلق ، اتبع آثار أقدام الفائزين وكن الفائز القادم</string>
+    <string name="how_to_participate_txt">ببساطة ، قم بالتسجيل أو تسجيل الدخول!</string>
+    <string name="tournament_rewards_txt">جميع المكافآت الإقليمية للبطولات عبر الإنترنت هي بالدولار الأمريكي ما لم يُذكر تحديدًا في تفاصيل البطولة. تُدفع هذه المكاسب إلى الحساب المصرفي الذي تختاره ، ومع ذلك ، قد يتم تكبد ضرائب ورسوم مصرفية إضافية أثناء هذا التحويل وتخضع لقواعد ولوائح السوق الخاصة بك. على هذا النحو ، يوصى بإعداد التفاصيل المصرفية الخاصة بك مسبقًا لتسريع هذه العملية. البنود و تطبق الشروط.</string>
+
+    <string name="activities">الانشطه</string>
+    <string name="schedule">المواعيد</string>
+    <string name="games">الالعاب</string>
+    <string name="register">التسجيل</string>
+    <string name="rules">القوانين</string>
+    <string name="events">الأحداث</string>
+    <string name="dialog_date">التاريخ :</string>
+    <string name="dialog_prize">إجمالي مجموع الجوائز :</string>
+    <string name="dialog_type">النوع :</string>
+    <string name="dialog_organizer">المنظم :</string>
+    <string name="dialog_game">اللعبه :</string>
+    <string name="dialog_more_details">المزيد</string>
+    <string name="dialog_quick_rules">القوانين</string>
+    <string name="game_registeration">التسجيل</string>
+    <string name="team_name">اسم الفريق</string>
+    <string name="email_addres">البريد الالكتروني</string>
+    <string name="password">كلمة السر</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="forgot_password">نسيت كلمة السر؟</string>
+    <string name="login_account">تسجيل دخول</string>
+    <string name="create_new_account">التسجيل</string>
+    <string name="confirm_password">تأكيد كلمه السر</string>
+    <string name="create_account">انشاء حساب</string>
+    <string name="back_to_login">عوده الي تسجيل الدخول</string>
+    <string name="next">التالي</string>
+    <string name="i_agree_to_terms_and_condition">اوافق على الشروط و الاحكام</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="last_name">اسم العائلة</string>
+    <string name="gamer_tag">Gamer Tag</string>
+    <string name="discord_tag">Discord رقم</string>
+    <string name="age">العمر</string>
+    <string name="phone">الهاتف</string>
+    <string name="confirm_email">تأكيد البريد الالكتروني</string>
+    <string name="add_substitution">اضافة بديل</string>
+    <string name="team_logo_optional">شعار الفريق(اختياري)</string>
+    <string name="old_password">كلمه السر القديمه</string>
+    <string name="new_password">كلمه السر الجديده</string>
+    <string name="confirm_new_password">تاكيد كلمه السر</string>
+    <string name="change_password">تحديث كلمة السر</string>
+    <string name="no_promotions_available_now">لا يوجد ترقيات متاحة اﻵن</string>
+    <string name="mode">الوضع</string>
+    <string name="format">التصميم</string>
+    <string name="date">التاريخ</string>
+    <string name="reset_password">إعادة تعيين كلمه السر</string>
+    <string name="cancel">الغاء</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="name">الاسم</string>
+
+    <string name="no_data">هذه البيانات غير موجوده</string>
+
+    <string name="team_details">بيانات الفريق</string>
+    <string name="player">اللاعب</string>
+    <string name="captain">القائد</string>
+    <string name="subistitution">البديل</string>
+    <string name="pro_teams">الفرق</string>
+    <string name="influencers">المؤثرون</string>
+    <string name="no_form_for_activity">لا يوجد تسجيل</string>
+    <string name="menu_language">English</string>
+
+</resources>
