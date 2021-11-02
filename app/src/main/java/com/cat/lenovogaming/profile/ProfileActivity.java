@@ -47,11 +47,11 @@ public class ProfileActivity extends BaseActivity {
 
     CheckBox keepUpdated;
 
-    private ProgressDialog dialog;
 
     String accessToken;
     SharedPreferences loginPreferences;
 
+    private ProgressDialog dialog;
     String url;
     Retrofit retrofit;
     ServiceInterface myInterface;

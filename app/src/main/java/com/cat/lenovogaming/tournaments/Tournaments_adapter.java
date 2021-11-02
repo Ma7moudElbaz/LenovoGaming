@@ -23,9 +23,9 @@ import androidx.recyclerview.widget.RecyclerView;
 public class Tournaments_adapter extends RecyclerView.Adapter<Tournaments_adapter.ViewHolder> {
     private static final String TAG = "RecyclerViewAdapter";
 
-    private List<Tournaments_item> items;
+    private final List<Tournaments_item> items;
 
-    private Context mContext;
+    private final Context mContext;
 
     public Tournaments_adapter(Context context, ArrayList<Tournaments_item> items) {
 

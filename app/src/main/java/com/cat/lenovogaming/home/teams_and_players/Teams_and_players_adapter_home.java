@@ -24,9 +24,9 @@ import java.util.List;
 public class Teams_and_players_adapter_home extends RecyclerView.Adapter<Teams_and_players_adapter_home.ViewHolder> {
     private static final String TAG = "RecyclerViewAdapter";
 
-    private List<Teams_and_players_item> items;
+    private final List<Teams_and_players_item> items;
 
-    private Context mContext;
+    private final Context mContext;
 
     public Teams_and_players_adapter_home(Context context, ArrayList<Teams_and_players_item> items) {
 

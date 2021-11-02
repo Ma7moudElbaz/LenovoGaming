@@ -21,9 +21,9 @@ import androidx.recyclerview.widget.RecyclerView;
 public class Schedule_adapter extends RecyclerView.Adapter<Schedule_adapter.ViewHolder> {
     private static final String TAG = "RecyclerViewAdapter";
 
-    private List<Schedule_item> items;
+    private final List<Schedule_item> items;
 
-    private Context mContext;
+    private final Context mContext;
 
     public Schedule_adapter(Context context, ArrayList<Schedule_item> items) {
 

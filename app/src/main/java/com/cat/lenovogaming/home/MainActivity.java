@@ -1,7 +1,6 @@
 package com.cat.lenovogaming.home;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -12,10 +11,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -26,7 +22,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.cat.lenovogaming.BaseActivity;
-import com.cat.lenovogaming.LocaleHelper;
 import com.cat.lenovogaming.R;
 import com.cat.lenovogaming.SideNavigationHandler;
 import com.cat.lenovogaming.home.gallery.Gallery_adapter;
@@ -51,6 +46,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Locale;
 
@@ -102,22 +98,11 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
     TextView tabDetails;
     int clicked = 0;
 
-    public void updateLocale(String lang) {
-        Locale myLocale = new Locale(lang);
-        Resources res = getResources();
-        DisplayMetrics dm = res.getDisplayMetrics();
-        Configuration conf = res.getConfiguration();
-        conf.locale = myLocale;
-        res.updateConfiguration(conf, dm);
-        recreate();
-        //finish();
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         tab1 = findViewById(R.id.tab_1);
         tab2 = findViewById(R.id.tab_2);
@@ -262,11 +247,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
                 final String externalUrl = currentobject.getString("external_link");
                 final int hasContentInt = currentobject.getInt("has_content");
                 final boolean hasContent;
-                if (hasContentInt == 0) {
-                    hasContent = false;
-                } else {
-                    hasContent = true;
-                }
+                hasContent = hasContentInt != 0;
                 slides_list.add(new Slides_item(id, imageUrl, title, content, externalUrl, hasContent));
 
             }
@@ -350,7 +331,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
         byte[] buffer = new byte[size];
         is.read(buffer);
         is.close();
-        String data = new String(buffer, "UTF-8");
+        String data = new String(buffer, StandardCharsets.UTF_8);
         JSONArray teamsPlayersArray = new JSONArray(data);
         setTeamsPlayers(teamsPlayersArray);
     }
@@ -485,7 +466,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
         int id = menuItem.getItemId();
 
 
-        SideNavigationHandler handler = new SideNavigationHandler(getBaseContext(), id);
+        SideNavigationHandler handler = new SideNavigationHandler(MainActivity.this, id);
         handler.navigate();
 
         drawer.closeDrawer(GravityCompat.START);
@@ -506,4 +487,6 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
         super.onResume();
         navigationView.setCheckedItem(R.id.nav_home);
     }
+
+
 }

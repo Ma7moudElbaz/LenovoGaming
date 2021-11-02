@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:orientation="vertical"
-    tools:context=".EventsActivity">
+    tools:context=".events.EventsActivity">
 
     <RelativeLayout
         android:id="@+id/topPanel"

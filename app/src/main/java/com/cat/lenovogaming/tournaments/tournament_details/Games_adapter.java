@@ -24,9 +24,9 @@ import androidx.recyclerview.widget.RecyclerView;
 public class Games_adapter extends RecyclerView.Adapter<Games_adapter.ViewHolder> {
     private static final String TAG = "RecyclerViewAdapter";
 
-    private List<Games_item> items;
+    private final List<Games_item> items;
 
-    private Context mContext;
+    private final Context mContext;
 
     public Games_adapter(Context context, ArrayList<Games_item> items) {
 

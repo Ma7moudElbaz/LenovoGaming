@@ -16,7 +16,7 @@ public class Webservice {
 
     private static final String MAIN_URL = "https://legion-game.lenovomeaevents.com/api/";
     private static Webservice instance;
-    private ServiceInterface api;
+    private final ServiceInterface api;
 
     public Webservice() {
        // OkHttpClient okHttpClient = new OkHttpClient.Builder().build();

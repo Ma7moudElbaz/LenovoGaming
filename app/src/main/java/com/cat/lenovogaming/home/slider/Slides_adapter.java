@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class Slides_adapter extends CardSliderAdapter<Slides_item> {
 
-    private Context context;
+    private final Context context;
 
     public Slides_adapter(Context context, ArrayList<Slides_item> items) {
         super(items);

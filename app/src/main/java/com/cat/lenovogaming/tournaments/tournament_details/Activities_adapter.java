@@ -25,9 +25,9 @@ import androidx.recyclerview.widget.RecyclerView;
 public class Activities_adapter extends RecyclerView.Adapter<Activities_adapter.ViewHolder> {
     private static final String TAG = "RecyclerViewAdapter";
 
-    private List<Activities_item> items;
+    private final List<Activities_item> items;
 
-    private Context mContext;
+    private final Context mContext;
     int tournamentId;
 
     public Activities_adapter(Context context, ArrayList<Activities_item> items, int tournamentId) {
@@ -59,9 +59,9 @@ public class Activities_adapter extends RecyclerView.Adapter<Activities_adapter.
             public void onClick(View v) {
 
                 if (items.get(position).getHasFields() == 1) {
-                    String activityUrl = String.valueOf(mContext.getResources().getString(R.string.domain_name))
-                            + "tournaments/" + String.valueOf(tournamentId) + "/activity/"
-                            + String.valueOf(items.get(position).getId()) + "/mobile";
+                    String activityUrl = mContext.getResources().getString(R.string.domain_name)
+                            + "tournaments/" + tournamentId + "/activity/"
+                            + items.get(position).getId() + "/mobile";
 
                     Intent i = new Intent(mContext, WebBrowser.class);
                     i.putExtra("url", activityUrl);

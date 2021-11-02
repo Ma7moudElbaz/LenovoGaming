@@ -1,4 +1,4 @@
-package com.cat.lenovogaming;
+package com.cat.lenovogaming.events;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -15,6 +15,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.cat.lenovogaming.BaseActivity;
+import com.cat.lenovogaming.R;
 import com.cat.lenovogaming.network_interface.ContentWebservice;
 import com.cat.lenovogaming.tournaments.Tournaments_adapter;
 import com.cat.lenovogaming.tournaments.Tournaments_item;

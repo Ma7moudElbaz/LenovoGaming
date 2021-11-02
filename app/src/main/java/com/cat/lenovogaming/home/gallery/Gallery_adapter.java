@@ -21,9 +21,9 @@ import java.util.List;
 public class Gallery_adapter extends RecyclerView.Adapter<Gallery_adapter.ViewHolder> {
     private static final String TAG = "RecyclerViewAdapter";
 
-    private List<Gallery_item> items;
+    private final List<Gallery_item> items;
 
-    private Context mContext;
+    private final Context mContext;
 
     public Gallery_adapter(Context context, ArrayList<Gallery_item> items) {
 

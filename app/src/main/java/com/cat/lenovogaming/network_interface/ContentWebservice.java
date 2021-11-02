@@ -15,10 +15,10 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ContentWebservice {
-    String languagename = Locale.getDefault().getLanguage();
+    String languagename = Locale.getDefault().toString();
     private static String MAIN_URL;
     private static ContentWebservice instance;
-    private ServiceInterface api;
+    private final ServiceInterface api;
 
     public ContentWebservice() {
 //        OkHttpClient okHttpClient = new OkHttpClient.Builder().build();
@@ -45,9 +45,9 @@ public class ContentWebservice {
     }
 
     public static ContentWebservice getInstance() {
-        if (instance == null) {
+//        if (instance == null) {
             instance = new ContentWebservice();
-        }
+//        }
         return instance;
     }
 

@@ -1,21 +1,15 @@
 package com.cat.lenovogaming;
 
 import android.content.Context;
-import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
-import static com.cat.lenovogaming.LanguageUtils.getLanguage;
+import com.akexorcist.localizationactivity.core.LocalizationActivityDelegate;
+import com.akexorcist.localizationactivity.ui.LocalizationActivity;
 
-public class BaseActivity extends AppCompatActivity {
+public class BaseActivity extends LocalizationActivity {
 
-    @Override
-    protected void attachBaseContext(Context base) {
-        super.attachBaseContext(LocaleHelper.changeLanguage(base, getLanguage(base)));
-    }
-
-    @Override
-    public void applyOverrideConfiguration(Configuration overrideConfiguration) {
-        super.applyOverrideConfiguration(getBaseContext().getResources().getConfiguration());
-    }
 }

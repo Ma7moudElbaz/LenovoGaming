@@ -100,8 +100,8 @@ public class TournamentGameDetails extends BaseActivity {
             @Override
             public void onClick(View view) {
 
-                gameUrl = String.valueOf(getResources().getString(R.string.domain_name)) + "tournaments/"
-                        + String.valueOf(tournamentId) + "/game/" + String.valueOf(gameId) + "/mobile";
+                gameUrl = getResources().getString(R.string.domain_name) + "tournaments/"
+                        + tournamentId + "/game/" + gameId + "/mobile";
 
                 Intent i = new Intent(getBaseContext(), WebBrowser.class);
                 i.putExtra("url", gameUrl);

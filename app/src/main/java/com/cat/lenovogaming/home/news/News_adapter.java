@@ -23,9 +23,9 @@ import java.util.List;
 public class News_adapter extends RecyclerView.Adapter<News_adapter.ViewHolder> {
     private static final String TAG = "RecyclerViewAdapter";
 
-    private List<News_item> items;
+    private final List<News_item> items;
 
-    private Context mContext;
+    private final Context mContext;
 
     public News_adapter(Context context, ArrayList<News_item> items) {
 

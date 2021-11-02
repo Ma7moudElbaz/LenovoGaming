@@ -25,9 +25,9 @@ import java.util.List;
 public class Products_home_adapter extends RecyclerView.Adapter<Products_home_adapter.ViewHolder> {
     private static final String TAG = "RecyclerViewAdapter";
 
-    private List<Products_item> items;
+    private final List<Products_item> items;
 
-    private Context mContext;
+    private final Context mContext;
 
     public Products_home_adapter(Context context, ArrayList<Products_item> items) {
 
