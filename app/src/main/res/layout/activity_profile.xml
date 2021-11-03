@@ -32,7 +32,7 @@
             android:adjustViewBounds="true"
             android:padding="5dp"
             android:src="@drawable/ic_back"
-            android:tint="@color/white"/>
+            app:tint="@color/white" />
     </RelativeLayout>
 
 
@@ -91,7 +91,7 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:src="@drawable/ic_user"
-                    android:tint="@color/lenovo_black" />
+                    app:tint="@color/lenovo_black" />
 
 
                 <EditText
@@ -119,7 +119,7 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:src="@drawable/ic_company"
-                    android:tint="@color/lenovo_black" />
+                    app:tint="@color/lenovo_black" />
 
 
                 <EditText
@@ -147,7 +147,7 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:src="@drawable/ic_title"
-                    android:tint="@color/lenovo_black" />
+                    app:tint="@color/lenovo_black" />
 
 
                 <EditText
@@ -175,7 +175,7 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:src="@drawable/ic_mobile"
-                    android:tint="@color/lenovo_black" />
+                    app:tint="@color/lenovo_black" />
 
 
                 <EditText
@@ -203,7 +203,7 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:src="@drawable/ic_address"
-                    android:tint="@color/lenovo_black" />
+                    app:tint="@color/lenovo_black" />
 
 
                 <EditText
@@ -231,7 +231,7 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:src="@drawable/ic_email"
-                    android:tint="@color/lenovo_black" />
+                    app:tint="@color/lenovo_black" />
 
 
                 <EditText
@@ -294,7 +294,7 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:src="@drawable/ic_password"
-                    android:tint="@color/lenovo_black" />
+                    app:tint="@color/lenovo_black" />
 
 
                 <EditText
@@ -322,7 +322,7 @@
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:src="@drawable/ic_password"
-                android:tint="@color/lenovo_black" />
+                app:tint="@color/lenovo_black" />
 
 
             <EditText
@@ -351,7 +351,7 @@
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:src="@drawable/ic_password"
-                    android:tint="@color/lenovo_black" />
+                    app:tint="@color/lenovo_black" />
 
 
                 <EditText
