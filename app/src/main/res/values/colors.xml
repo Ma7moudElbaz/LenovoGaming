@@ -15,7 +15,6 @@
     <color name="white">#FEFEFE</color>
     <color name="gray_opacity">#BFC2C2C2</color>
     <color name="gray">#C2C2C2</color>
-    <color name="black">#000000</color>
     <color name="lenovo_black">#262626</color>
     <color name="transparent">#00ffffff</color>
 </resources>

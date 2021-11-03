@@ -1,6 +1,5 @@
 package com.cat.lenovogaming.login_register_forgot;
 
-import androidx.appcompat.app.AppCompatActivity;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -8,7 +7,6 @@ import retrofit2.Response;
 
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,7 +18,6 @@ import android.widget.Toast;
 
 import com.cat.lenovogaming.BaseActivity;
 import com.cat.lenovogaming.R;
-import com.cat.lenovogaming.home.MainActivity;
 import com.cat.lenovogaming.network_interface.Webservice;
 
 import org.json.JSONException;

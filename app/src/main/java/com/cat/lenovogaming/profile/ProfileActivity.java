@@ -1,6 +1,5 @@
 package com.cat.lenovogaming.profile;
 
-import androidx.appcompat.app.AppCompatActivity;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -28,9 +27,6 @@ import com.cat.lenovogaming.BaseActivity;
 import com.cat.lenovogaming.R;
 import com.cat.lenovogaming.login_register_forgot.LoginActivity;
 import com.cat.lenovogaming.network_interface.ServiceInterface;
-import com.cat.lenovogaming.network_interface.Webservice;
-import com.cat.lenovogaming.products_all.ProductsActivity;
-import com.cat.lenovogaming.tournaments.tournament_game_details.TournamentGameDetails;
 
 import org.json.JSONException;
 import org.json.JSONObject;

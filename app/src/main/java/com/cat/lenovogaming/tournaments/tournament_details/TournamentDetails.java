@@ -1,6 +1,5 @@
 package com.cat.lenovogaming.tournaments.tournament_details;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
@@ -20,7 +19,6 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.cat.lenovogaming.BaseActivity;
 import com.cat.lenovogaming.R;
-import com.cat.lenovogaming.home.teams_and_players.Teams_and_players_adapter_home;
 import com.cat.lenovogaming.home.teams_and_players.Teams_and_players_item;
 import com.cat.lenovogaming.network_interface.ContentWebservice;
 

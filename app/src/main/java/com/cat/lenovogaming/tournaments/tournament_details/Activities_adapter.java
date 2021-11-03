@@ -14,7 +14,6 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.cat.lenovogaming.R;
 import com.cat.lenovogaming.WebBrowser;
-import com.cat.lenovogaming.tournaments.Tournaments_item;
 
 import java.util.ArrayList;
 import java.util.List;

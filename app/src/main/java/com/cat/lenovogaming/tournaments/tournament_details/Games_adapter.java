@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.cat.lenovogaming.R;
-import com.cat.lenovogaming.tournaments.Tournaments_item;
 import com.cat.lenovogaming.tournaments.tournament_game_details.TournamentGameDetails;
 
 import java.util.ArrayList;

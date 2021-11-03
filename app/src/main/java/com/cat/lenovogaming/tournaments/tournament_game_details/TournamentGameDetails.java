@@ -1,6 +1,5 @@
 package com.cat.lenovogaming.tournaments.tournament_game_details;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import okhttp3.ResponseBody;
@@ -8,10 +7,8 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.http.SslError;
@@ -30,7 +27,6 @@ import com.bumptech.glide.Glide;
 import com.cat.lenovogaming.BaseActivity;
 import com.cat.lenovogaming.R;
 import com.cat.lenovogaming.WebBrowser;
-import com.cat.lenovogaming.login_register_forgot.LoginActivity;
 import com.cat.lenovogaming.network_interface.ContentWebservice;
 import com.cat.lenovogaming.network_interface.Webservice;
 

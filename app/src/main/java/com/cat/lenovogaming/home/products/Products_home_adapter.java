@@ -16,7 +16,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.cat.lenovogaming.R;
 import com.cat.lenovogaming.WebBrowser;
-import com.cat.lenovogaming.news_all.NewsDetails;
 import com.cat.lenovogaming.products_all.ProductDetails;
 
 import java.util.ArrayList;
